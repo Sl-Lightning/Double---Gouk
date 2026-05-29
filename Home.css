@@ -1,0 +1,408 @@
+body{
+    background-color: rgb(12, 2, 2);
+    border: 2px solid rgb(255, 0, 225);
+    
+
+}
+#topic{
+        text-align: center;
+    text-decoration:dotted;
+    text-transform: initial;
+    text-overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(251, 255, 0);;
+    text-decoration-line: underline;
+    text-decoration-color:  rgb(14, 238, 6);
+    font-size: 70px;
+    border: 2px 2px white;
+}
+#topic:hover{
+    animation-name: colorChange ;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running ;
+    animation-timing-function: ease-in-out ;
+}
+    @keyframes colorChange{
+    0%{color: rgb(255, 0, 0)}
+    20%{color: rgb(255, 119, 0)}
+    40%{color: rgba(238, 255, 0, 0.91)}
+     60%{color: rgba(0, 255, 30, 0.91)}
+      80%{color: rgba(2, 191, 228, 0.91)}
+       100%{color: rgba(246, 8, 202, 0.91)}
+}
+#container{
+    display: flex;
+    background-color: aqua;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    row-gap: 5em;
+    height: 10vh;
+     border: 5px solid rgb(60, 0, 255);
+     border-radius: 5px 5px 2px ;
+}
+#navlist{
+    display: flex;
+    float: left;
+       text-decoration: none ;
+    padding: 15px;
+    gap: 250px;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(251, 0, 255);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+  touch-action: double-tap-zoom;
+}
+#fed{
+    color: rgb(255, 255, 255);
+}
+#span1{
+    color: #59ff00;
+    font-size: 40px;
+    
+}
+#span2{
+    color: rgb(239, 7, 165);
+    font-size: 30px;
+    
+    
+}
+#span3{
+     color: #00bbff;
+    font-size: 30px;
+   
+}
+#Fedbutton{
+   text-align: center;
+    width: 200px;
+    height: 70px;
+    transform: translate(-150%, 10px);
+}
+#fedck{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#fedboy{
+    background-color: black;
+    border: 2px dotted white;
+    color: white;
+
+}
+form{
+    font-size: 30px; 
+    color: #59ff00;
+    text-align: center;
+}
+#fedtopic{
+    color: aqua;
+    text-align: center;
+    text-decoration: underline wavy yellow;
+}
+#thank{
+     animation-name: colorChange ;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running ;
+    animation-timing-function: ease-in-out ;
+    text-align: center;
+    font-size: 100px;
+}
+#mahinda{
+    color: rgb(255, 255, 255);
+    text-align: center;
+     font-size: 50px;   
+}
+#navlist li{
+    list-style:;
+    color: rgb(251, 0, 255);
+    text-decoration: none;
+}
+#home{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+#contact{
+    color: rgb(255, 0, 153);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 183);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+#feedback{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+#products{
+    color: rgb(0, 151, 18);
+    text-decoration: underline;
+    text-decoration-color: rgb(3, 178, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#about{
+    color: rgb(64, 0, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(13, 0, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#click{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+#kukku{
+  
+    align:center;
+     width: 500px;
+     height: 500px;
+     transform: translate(100%, 0%);
+}
+#backhome{
+    color: rgb(0, 255, 13);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#span4{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    
+    transform: translate(0%, 0%);
+}
+
+#ishaan{
+    width: 300px;
+    height: 300px;
+    transform: translate(600px, -200px);
+float: left;
+border-radius: 20px;
+border: 2px solid rgb(0, 255, 166);
+
+}
+#note{
+    color: rgb(243, 235, 8);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(200px, -300px);
+    text-decoration: underline;
+    text-decoration-color: #11ff00;
+}
+#frd{
+       transform: translate(600px, -300px);
+font-size: 30px;
+
+    }
+    #hr{
+        transform: translate(0px, -200px);
+    }
+    #aboutbody{
+        background-color: #fff200;
+    }
+    #hr2{
+        color: #11ff00;
+        transform: translate(0, -120px);
+    }
+    #me{
+        color: #ff0000;
+        width: 200px;
+        height: 70px;
+        transform: translate(650px);
+    }
+    #inter{
+        font-size: 40px;
+        color: #11ff00;
+        text-align: center;
+    }
+    #me1{
+        width: 300px;
+        height: 330px;
+        padding: 10px;
+        float: left;
+        border-radius: 20px;
+    }
+    #t{
+        color: #00aeff;
+         animation-name: colorChange ;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-play-state: running ;
+    animation-timing-function: ease-in-out ;
+    }
+    #guess{
+        text-align: center;
+        
+        color: #002aff;
+    }
+    #ju{
+  text-align: center;
+       
+        color: #ff00cc;
+    }
+    #p{
+        text-align: center;
+        color: #ffcc00;
+    }
+    #ab{
+        text-align: center;
+
+    }
+    #sh{
+        color: #ff0000;
+        text-align: center;
+    }
+    #pbody{
+        background-color: #a1ff79;
+    }
+    #rab{
+        width: 200px;
+        border-radius: 20px;
+     transform: translate(0px);
+     
+    }
+#kuk{
+width: 200px;
+height: 262px;
+border-radius: 20px;
+transform: translate(0px,);
+}  
+#Maraya{
+width: 200px;
+height: 262px;
+border-radius: 20px;
+transform: translate(500px, -1135px);
+
+}
+#cr7{
+width: 200px;
+height: 262px;
+border-radius: 20px;
+transform: translate(495px, -1150px);
+}
+#beach{
+    width: 200px;
+height: 262px;
+border-radius: 20px;
+transform: translate(150px);
+}
+#rabana{
+      width: 200px;
+height: 262px;
+border-radius: 20px;
+transform: translate(180px);
+}  
+
+.imas{
+    display: inline-block;
+  
+
+}
+#cart{
+   color: #6200ff;
+   background-color: #ff0000;
+   height: 40px;
+   border-radius: 20px;
+   
+   
+}
+#v{
+    font-size: 30px;
+    transform: translate(30px);
+}
+
+#car{
+border: #ff0000;
+}
+#rdes{
+  
+    width: 200px;
+}
+#kt{
+    color: #ff00ea;
+    
+}
+#impo{
+    transform: translate(500px, -1135px);
+}
+#impocr{
+    transform: translate(500px, -1160px);
+}
+#impobr{
+    transform: translate(1000px, -2300px);
+}
+#beach{
+    transform: translate(1000px, -2290px);
+}
+#rabana{
+    transform: translate(995px, -2310px);
+}
+#imr{
+     transform: translate(1000px, -2330px);
+}
+#sbo{
+    background-color: #0800ff;
+}
+#wp {
+    display: flex;
+    overflow: hidden;
+}
+#no{
+    float: bottom;
+    color: #11ff00;
+    text-align: center;
+}
+#wpn{
+    color: #ff00cc;
+    text-align: center;
+}
+.gallery{
+    display: inline-block;
+    border: 2px solid rgb(255, 0, 0);
+}
+.wp{
+    width: 100px;
+    height: 100px;
+    margin: 90px;
+
+}
+#sr{
+    color: #ddf600;
+    text-align: center;
+}
+#si{
+color: #11ff00;
+ text-align: center;
+}
+#sl{
+color: #ff0000;
+ text-align: center;
+}
+#bn{
+color: #04ff00;
+ text-align: center;
+ border: 2px solid yellow;
+ 
+}
